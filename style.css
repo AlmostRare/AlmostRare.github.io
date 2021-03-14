@@ -177,13 +177,15 @@ nav {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  z-index: 2;
+  position: relative;
 }
 .plant {
   max-height: 80%;
   position: absolute;
   bottom: 0;
   left: -20%;
-  z-index: -1;
+  z-index: 1;
   -webkit-transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
   transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
   animation: plant-entrance 1.5s ease-in-out 0.5s forwards,
